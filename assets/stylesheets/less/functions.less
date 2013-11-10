@@ -1,0 +1,47 @@
+.appearance(@appearance) {
+  -webkit-appearance: @appearance;
+     -moz-appearance: @appearance;
+      -ms-appearance: @appearance;
+          appearance: @appearance;
+}
+.box-shadow(@boxShadow) {
+  -webkit-box-shadow: @boxShadow;
+     -moz-box-shadow: @boxShadow;
+      -ms-box-shadow: @boxShadow;
+          box-shadow: @boxShadow;
+}
+.box-sizing(@boxSizing) {
+  -webkit-box-sizing: @boxSizing;
+     -moz-box-sizing: @boxSizing;
+      -ms-box-sizing: @boxSizing;
+          box-sizing: @boxSizing;
+}
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+.linear-gradient(@gradientStart, @colorStop1, @colorStop2) {
+  background-image: -webkit-linear-gradient(@gradientStart, @colorStop1, @colorStop2);
+  background-image:    -moz-linear-gradient(@gradientStart, @colorStop1, @colorStop2);
+  background-image:     -ms-linear-gradient(@gradientStart, @colorStop1, @colorStop2);
+  background-image:      -o-linear-gradient(@gradientStart, @colorStop1, @colorStop2);
+  background-image:         linear-gradient(@gradientStart, @colorStop1, @colorStop2);
+}
+.transition(@transition) {
+  -webkit-transition: @transition;
+     -moz-transition: @transition;
+      -ms-transition: @transition;
+          transition: @transition;
+}
+.user-select(@userSelect) {
+  -webkit-user-select: @userSelect;
+     -moz-user-select: @userSelect;
+      -ms-user-select: @userSelect;
+          user-select: @userSelect;
+}

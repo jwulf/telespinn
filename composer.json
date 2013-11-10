@@ -1,0 +1,29 @@
+{
+  "name": "lassebrenden/telespinn",
+  "description": "Prosjektoppgave i INF2260",
+  "homepage": "https://github.com/lassebrenden/telespinn-app",
+  "authors": [
+    {
+      "name": "Lasse Brenden",
+      "email": "lassebre@student.matnat.uio.no",
+      "homepage": "https://github.com/lassebrenden"
+    }
+  ],
+  "require": {
+    "php": ">= 5.4",
+    "j4mie/idiorm": "*",
+    "slim/slim": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Telespinn\\": "app/"
+    }
+  },
+  "extra": {
+    "heroku": {
+      "nginx-includes": [
+        "heroku/nginx.conf"
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.grid-row {
+  margin-bottom: @gridGutterWidth;
+  margin-left: (@gridGutterWidth / -2);
+  margin-right: (@gridGutterWidth / -2);
+  min-height: 1px;
+  .clearfix();
+}
+.grid-row:last-child {
+  margin-bottom: 0;
+}
+
+.grid-column {
+  float: left;
+  min-height: 1px;
+  padding: 0 (@gridGutterWidth / 2);
+  position: relative;
+}
+
+.grid-span-1 {
+  width: percentage((1 / @gridNumberOfColumns));
+}
+.grid-span-2 {
+  width: percentage((2 / @gridNumberOfColumns));
+}
+.grid-span-3 {
+  width: percentage((3 / @gridNumberOfColumns));
+}
+.grid-span-4 {
+  width: percentage((4 / @gridNumberOfColumns));
+}
+.grid-span-5 {
+  width: percentage((5 / @gridNumberOfColumns));
+}
+.grid-span-6 {
+  width: percentage((6 / @gridNumberOfColumns));
+}
+.grid-span-7 {
+  width: percentage((7 / @gridNumberOfColumns));
+}
+.grid-span-8 {
+  width: percentage((8 / @gridNumberOfColumns));
+}
+.grid-span-9 {
+  width: percentage((9 / @gridNumberOfColumns));
+}
+.grid-span-10 {
+  width: percentage((10 / @gridNumberOfColumns));
+}
+.grid-span-11 {
+  width: percentage((11 / @gridNumberOfColumns));
+}
+.grid-span-12 {
+  float: none !important;
+  width: 100%;
+}
+
+.grid-align-center {
+  text-align: center;
+}
+.grid-align-left {
+  text-align: left;
+}
+.grid-align-right {
+  text-align: right;
+}
