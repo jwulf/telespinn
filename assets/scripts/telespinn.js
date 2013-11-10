@@ -15,7 +15,7 @@
     var container = $("#container");
 
     $('html, body').animate({
-      scrollTo: container.offset().top
+      scrollTop: container.offset().top
     }, 500);
     
     return false;
