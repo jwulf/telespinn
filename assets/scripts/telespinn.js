@@ -6,7 +6,7 @@
   function positionHeaderText() {
     var w = $(window);
     var headerText = $('#header-text');
-    var headerTextOffset = (w.height() - headerText.height()) / 2;
+    var headerTextOffset = ((w.height() - headerText.height()) / 2) - 10;
 
     headerText.css('top', headerTextOffset);
   }
