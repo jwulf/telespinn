@@ -54,10 +54,14 @@
         <div class="container">
           <div class="grid-row">
             <div class="grid-column grid-span-6">
-              <a class="home" href="/"></a>
-              <a class="header-scroll">Om Telespinn</a>
-              <a href="/inspirasjon">Inspirasjon</a>
-              <a href="/nettbutikk">Nettbutikk</a>
+              <div class="grid-row">
+                <div class="grid-column grid-span-12">
+                  <a class="home" href="/"></a>
+                  <a class="header-scroll">Om Telespinn</a>
+                  <a href="/inspirasjon">Inspirasjon</a>
+                  <a href="/nettbutikk">Nettbutikk</a>
+                </div>
+              </div>
             </div>
             <div class="grid-align-right grid-column grid-span-6">
               <div class="wrapper">
