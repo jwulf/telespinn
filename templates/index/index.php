@@ -4,7 +4,7 @@
 <?php else : ?>
   <div id="container">
 <?php endif; ?>
-  <div id="index">
+  <div id="content">
     <div class="grid-row">
       <div class="container">
         <div class="image position-vertical">
@@ -30,7 +30,7 @@
           <img alt="Spesialist på mohair" src="<?= \Telespinn\URL::toBase(); ?>/assets/images/spesialist-pa-mohair.jpg">
         </div>
         <div class="text">
-          <h1>Spesialist på mohair</h1>
+          <h1>Spesialist på mohairgarn</h1>
           <p>
             Mohairfiberen er spesielt tynn og blank sammenlignet med saueull. Dette gjør at plagg i mohair føles luftige å ha på seg, samtidig som de har en flott glans. Det klør derfor ikke på samme måte som vanlige ullprodukter.
           </p>

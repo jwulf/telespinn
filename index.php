@@ -44,7 +44,7 @@ $app->get('/', function () use ($app) {
 */
 $app->get('/inspirasjon', function () use ($app) {
     $app->render('index/header', ['pageTitle' => 'Inspirasjon']);
-    $app->render('index/index');
+    $app->render('stories/index');
     $app->render('index/footer');
 });
 
@@ -53,7 +53,7 @@ $app->get('/inspirasjon', function () use ($app) {
 */
 $app->get('/nettbutikk', function () use ($app) {
     $app->render('index/header', ['pageTitle' => 'Nettbutikk']);
-    $app->render('index/index');
+    $app->render('store/index');
     $app->render('index/footer');
 });
 
@@ -62,7 +62,7 @@ $app->get('/nettbutikk', function () use ($app) {
 */
 $app->get('/min-side', function () use ($app) {
     $app->render('index/header', ['pageTitle' => 'Min side']);
-    $app->render('index/index');
+    $app->render('profile/index');
     $app->render('index/footer');
 });
 
