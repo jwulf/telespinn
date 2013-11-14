@@ -26,7 +26,6 @@
         <div class="column">
           <div class="wrapper">
             <a href="/min-side">Min side</a>
-            <a href="/logg-ut">Logg ut</a>
           </div>
         </div>
       </div>

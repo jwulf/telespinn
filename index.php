@@ -81,13 +81,6 @@ $app->get('/min-side', function () use ($app) {
 });
 
 /**
-* Define route: GET /logg-ut
-*/
-$app->get('/logg-ut', function () use ($app) {
-    $app->redirect('/');
-});
-
-/**
 * Run app
 */
 $app->run();
