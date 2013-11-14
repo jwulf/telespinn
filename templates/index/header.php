@@ -20,7 +20,7 @@
             <a class="home-link" href="/"></a>
             <a class="scroll-past-top">Om Telespinn</a>
             <a href="/inspirasjon">Inspirasjon</a>
-            <a href="/nettbutikk">Nettbutikk</a>
+            <a href="/butikk">Butikk</a>
           </div>
         </div>
         <div class="column">

@@ -3,7 +3,7 @@
 <?php else : ?>
   <div id="container">
 <?php endif; ?>
-  <div id="content">
+  <div class="content">
     <div class="grid-row">
       <div class="container">
         <h1>Min side</h1>

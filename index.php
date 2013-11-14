@@ -49,10 +49,10 @@ $app->get('/inspirasjon', function () use ($app) {
 });
 
 /**
-* Define route: GET /nettbutikk
+* Define route: GET /butikk
 */
-$app->get('/nettbutikk', function () use ($app) {
-    $app->render('index/header', ['pageTitle' => 'Nettbutikk']);
+$app->get('/butikk', function () use ($app) {
+    $app->render('index/header', ['pageTitle' => 'Butikk']);
     $app->render('store/index');
     $app->render('index/footer');
 });
