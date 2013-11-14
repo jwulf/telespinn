@@ -6,7 +6,7 @@
   <div class="content">
     <div class="grid-row">
       <div class="container">
-        <h1>Nettbutikk</h1>
+        <h1>Butikk</h1>
         <div class="grid-row">
           <div class="grid-column grid-span-12">
             <h2>

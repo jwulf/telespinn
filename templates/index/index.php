@@ -12,7 +12,7 @@
         <div class="text">
           <h1>Velkommen til Telespinn!</h1>
           <p>
-            Telespinn er et spinneri på gården Midt-Svartdal som har spesialisert seg på miljøvennlig produksjon av garn og tekstiler fra mohairgeita. Vi spinner dog alle animalske fiber, og hele prosessen – fra fiber til ferdig garn eller tekstil – foregår på gården. Våre produkter kan kjøpes på gården eller her i <a href="/butikk">nettbutikken</a>.
+            Telespinn er et spinneri på gården Midt-Svartdal som har spesialisert seg på miljøvennlig produksjon av garn og tekstiler fra mohairgeita. Vi spinner dog alle animalske fiber, og hele prosessen – fra fiber til ferdig garn eller tekstil – foregår på gården. Våre produkter kan kjøpes på gården eller i <a href="/butikk">butikken</a> her på nettsidene våre.
           </p>
           <p>
             Du kan også leie oss til å spinne garn av ditt eget fiber. Vi tar allerede imot fiber fra hele landet – også fra våre naboland. Vi kan lage garn av de fleste fiber, og har spunnet garn av kashmir, angorakanin, de fleste norske og svenske sauerasene, alpakka og hund. <a href="/">Les mer om leiespinning her</a>.

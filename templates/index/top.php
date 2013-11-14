@@ -7,7 +7,7 @@
       </p>
       <p>
         <a class="button scroll-past-top">Les mer om Telespinn og Midt-Svartdal</a>
-        <a class="button" href="/nettbutikk">Kjøp garn i nettbutikken</a>
+        <a class="button" href="/butikk">Kjøp garn i butikken</a>
       </p>
     </div>
   </div>
