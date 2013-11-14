@@ -10,7 +10,7 @@
         <div class="grid-row">
           <div class="grid-column grid-span-12">
             <h2>
-              <a href="/">Barneklær</a>
+              <a href="/inspirasjon/barneklaer">Barneklær</a>
             </h2>
             <div class="grid-row">
               <div class="grid-column grid-span-4">
@@ -28,7 +28,7 @@
         <div class="grid-row">
           <div class="grid-column grid-span-12">
             <h2>
-              <a href="/">Sjal og skjerf</a>
+              <a href="/inspirasjon/sjal-og-skjerf">Sjal og skjerf</a>
             </h2>
             <div class="grid-row">
               <div class="grid-column grid-span-4">
@@ -46,7 +46,7 @@
         <div class="grid-row">
           <div class="grid-column grid-span-12">
             <h2>
-              <a href="/">Tepper og ryer</a>
+              <a href="/inspirasjon/tepper-og-ryer">Tepper og ryer</a>
             </h2>
             <div class="grid-row">
               <div class="grid-column grid-span-4">

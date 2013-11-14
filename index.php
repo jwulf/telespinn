@@ -49,12 +49,26 @@ $app->get('/inspirasjon', function () use ($app) {
 });
 
 /**
+* Define route: GET /inspirasjon/:category
+*/
+$app->get('/inspirasjon/:category', function () use ($app) {
+    $app->redirect('/inspirasjon');
+});
+
+/**
 * Define route: GET /butikk
 */
 $app->get('/butikk', function () use ($app) {
     $app->render('index/header', ['pageTitle' => 'Butikk']);
     $app->render('store/index');
     $app->render('index/footer');
+});
+
+/**
+* Define route: GET /butikk/:category
+*/
+$app->get('/butikk/:category', function () use ($app) {
+    $app->redirect('/butikk');
 });
 
 /**
