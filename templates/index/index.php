@@ -1,4 +1,3 @@
-<div id="container">
 <?php if(\Telespinn\URL::getSegment()) : ?>
   <div class="pinned" id="container">
 <?php else : ?>
