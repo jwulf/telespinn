@@ -179,7 +179,6 @@ a {
   &.pinned {
     background-color: #fff;
     height: 50px;
-    opacity: 0.975;
     position: fixed;
     text-shadow: none;
     top: 0;
@@ -187,7 +186,7 @@ a {
     .transition(all 100ms ease);
     a {
       border-bottom: 0;
-      border-right: 1px solid #eee;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
       color: @bodyColor;
       display: block;
       float: left;
@@ -200,7 +199,7 @@ a {
         color: @colorSecondary;
       }
       &:first-child {
-        border-left: 1px solid #eee;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
       }
     }
     .home-link {
