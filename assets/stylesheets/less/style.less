@@ -5,54 +5,48 @@
 @import "grid";
 
 @colorPrimary: #137a45;
-@colorSecondary: #43b02a;
-@colorTertiary: #da5959;
+@colorSecondary: #1aa860;
+@colorTertiary: #2e4a42;
 @bodyBackgroundColor: #fff;
-@bodyColor: #2e4a42;
-@fontSizeBase: 12px;
-@fontSizeSmall: (@fontSizeBase - 2);
-@fontSizeMedium: (@fontSizeBase + 2);
-@fontSizeLarge: (@fontSizeBase + 4);
-@fontSizeExtraLarge: (@fontSizeBase + 6);
+@bodyColor: @colorTertiary;
+@fontSizeBase: 16px;
+@footerHeight: 176px;
 @gridGutterWidth: 20px;
 @gridMaxWidth: 900px;
 @gridNumberOfColumns: 12;
 
 html,
 body {
-  background-color: @bodyBackgroundColor;
-  background-image: url("../../images/cover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
 }
 body {
   color: @bodyColor;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: @fontSizeBase;
   line-height: 1;
 }
 a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   color: @colorPrimary;
   cursor: pointer;
-  font-weight: 600;
   text-decoration: none;
-  &:hover,
+  &:hover {
+    border-color: @colorSecondary;
+    color: @colorSecondary;
+  }
   &:focus,
   &:active {
     color: @bodyColor;
   }
 }
-strong {
-  font-weight: 600;
-}
 
 #container {
   background-color: @bodyBackgroundColor;
-  margin-bottom: @gridGutterWidth;
-  min-height: 100%;
   overflow-x: hidden;
   .clearfix();
+  &.pinned {
+    padding-top: (@gridGutterWidth * 2);
+  }
 }
 .container {
   margin: 0 auto;
@@ -62,213 +56,241 @@ strong {
   .clearfix();
 }
 
-#header {
-  border-bottom: 10px solid #fff;
-  color: #fff;
-  height: 100%;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+.align-center {
+  .align-center();
+}
+.align-center-absolute {
+  .align-center();
+  top: 50%;
+}
+
+#navigation {
+  height: 60px;
+  position: absolute;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  top: @gridGutterWidth;
   width: 100%;
-  .container {
-    height: 100%;
-  }
-  .grid-row {
-    &:first-child {
-      padding-top: @gridGutterWidth;
+  z-index: 999;
+  a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-weight: 600;
+    display: inline;
+    margin-right: @gridGutterWidth;
+    padding-bottom: 1px;
+    &:hover {
+      border-color: #fff;
     }
+    &:active {
+      border-color: rgba(255, 255, 255, 0.75);
+      color: rgba(255, 255, 255, 0.75);
+    }
+    &.home-link {
+      background-image: url("../../images/logo-white.svg");
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      background-size: 60px;
+      border: 0;
+      display: block;
+      float: left;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  .column {
+    float: left;
+    width: 70%;
     &:last-child {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
+      width: 30%;
+      a {
+        margin-left: @gridGutterWidth;
+        margin-right: 0;
+      }
+      .wrapper {
+        float: right;
+      }
     }
   }
-  #header-logo {
-    > img {
-      height: (@gridGutterWidth * 3);
-    }
+  .wrapper {
+    line-height: 60px;
   }
-  #header-menu {
-    line-height: (@gridGutterWidth * 3);
+  &.pinned {
+    background-color: #fff;
+    height: 50px;
+    opacity: 0.975;
+    position: fixed;
+    text-shadow: none;
+    top: 0;
+    .box-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+    .transition(all 100ms ease);
     a {
-      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+      border-bottom: 0;
+      border-right: 1px solid #eee;
+      color: @bodyColor;
+      display: block;
+      float: left;
+      font-size: (@fontSizeBase - 2);
+      margin: 0 !important;
+      padding: 0 @gridGutterWidth;
+      text-shadow: none;
+      &:hover {
+        background-color: rgba(7, 169, 95, 0.05);
+        color: @colorSecondary;
+      }
+      &:first-child {
+        border-left: 1px solid #eee;
+      }
+    }
+    .home-link {
+      background-image: url("../../images/logo-green.svg");
+      background-position: 50% 50%;
+      background-size: 25px;
+      height: 50px;
+      padding-right: 0;
+      width: 65px;
+    }
+    .column:first-child {
+      a {
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+    .wrapper {
+      line-height: 50px;
+    }
+  }
+}
+
+#top {
+  background-color: @bodyBackgroundColor;
+  background-image: url("../../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 10px solid @bodyBackgroundColor;
+  height: 100%;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  #top-text {
+    color: @bodyBackgroundColor;
+    position: relative;
+    h1 {
+      font-family: "Adelle Thin Italic", sans-serif;
+      font-size: (@fontSizeBase * 3);
+      line-height: 1.15;
+    }
+    p {
+      font-size: (@fontSizeBase + 8);
+      line-height: 1.25;
+      margin: @gridGutterWidth 0;
+      &:last-child {
+        line-height: 1;
+        margin-top: 0;
+      }
+    }
+    .button {
+      border-radius: 2px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
       color: #fff;
-      font-size: @fontSizeLarge;
-      margin-left: @gridGutterWidth;
+      display: block;
+      float: left;
+      font-size: @fontSizeBase;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-right: (@gridGutterWidth + 2);
+      padding: 8px 12px;
+      .user-select(none);
       &:hover {
         border-color: #fff;
       }
       &:active {
         border-color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 0.75);
+        .box-shadow(0 0 10px rgba(0, 0, 0, 0.25) inset);
       }
-    }
-  }
-  #header-text {
-    position: absolute;
-    top: 25%;
-    .wrapper {
-    }
-    h1 {
-      font-family: "Adelle Thin Italic";
-      font-size: @fontSizeExtraLarge * 3;
-      line-height: 1.1;
-      margin: 0;
-      padding-right: 25%;
-    }
-    p {
-      font-family: "Helvetica Neue", sans-serif;
-      font-size: @fontSizeBase * 2;
-      font-weight: 400;
-      line-height: 1.25;
-      margin-top: (@gridGutterWidth + 10);
-      overflow: hidden;
-      padding-right: 45%;
       &:last-child {
-        padding-right: 0;
-      }
-      > a {
         background-color: rgba(23, 92, 50, 0.75);
         background-image: -webkit-linear-gradient(top, rgba(31, 127, 69, 0.25) 0%, rgba(23, 92, 50, 0.25) 100%);
-        border-radius: 2px;
-        color: #fff;
-        display: inline-block;
-        font-size: @fontSizeLarge;
-        margin-right: (@gridGutterWidth + 10);
+        border: 0;
         padding: 10px 12px;
         &:hover {
-          background-image: -webkit-linear-gradient(top, darken(rgba(31, 127, 69, 0.25), 15%) 0%, darken(rgba(23, 92, 50, 0.25), 15%) 100%); ;
-        }
-        &:active {
-          background-color: darken(rgba(23, 92, 50, 0.75), 5%);
-          background-image: none;
-          .box-shadow(0 0 5px rgba(0, 0, 0, 0.25) inset);
-        }
-        &:first-child {
-          background: none;
-          border: 2px solid rgba(255, 255, 255, 0.5);
-          padding: 8px 10px;
-          &:hover {
-            border-color: #fff;
-          }
-          &:active {
-            border-color: rgba(255, 255, 255, 0.75);
-          }
+          background-image: -webkit-linear-gradient(top, darken(rgba(31, 127, 69, 0.25), 15%) 0%, darken(rgba(23, 92, 50, 0.25), 15%) 100%);
         }
       }
     }
   }
-  #header-scroll {
+  #scroll-button {
     background-image: url("../../images/header-scroll.png");
     background-repeat: no-repeat;
     border-radius: 2px 2px 0 0;
+    border: 0;
+    bottom: 0;
     cursor: pointer;
     display: block;
     height: 20px;
     margin: 0 auto;
+    position: absolute;
     width: 35px;
+    left: 50%;
+    margin-left: -17px;
   }
 }
 
-#navigation {
-  background-color: #fff;
-  display: none;
-  opacity: 0.975;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-  .box-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
-  &.pinned {
-    display: block;
-  }
-  a {
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    color: @bodyColor;
-    display: block;
-    float: left;
-    font-size: @fontSizeMedium;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 @gridGutterWidth;
-    &:hover {
-      color: lighten(@colorPrimary, 10%);
-    }
-    &.home {
-      background-color: #fff !important;
-      background-image: url("../../images/logo-green.svg");
-      background-position: 0 50%;
-      background-repeat: no-repeat;
-      background-size: 25px;
-      padding-left: 0;
-      padding-right: 43px;
-    }
-  }
-  .grid-column {
-    &:last-child {
-      .wrapper {
-        float: right;
-        a {
-          border-left: 1px solid rgba(0, 0, 0, 0.1);
-        }
-      }
-    }
-  }
-}
-
-#content {
-  padding: (@gridGutterWidth * 4) 0;
-  width: 100%;
-  .container {
-    padding: 0;
-  }
+#index {
   .grid-row {
-    margin-bottom: (@gridGutterWidth * 8);
-    margin-top: (@gridGutterWidth * 8);
-    &:nth-child(2) {
+    margin-bottom: 0;
+    padding: (@gridGutterWidth * 4) 0;
+    &:first-child {
+      margin-top: -10px;
+    }
+    &:nth-child(even) {
       background-color: #f5f5f5;
-      padding-bottom: (@gridGutterWidth * 8);
-      padding-top: (@gridGutterWidth * 8);
-      img {
+      .text {
+        float: right;
+        padding-left: (@gridGutterWidth * 2);
+        padding-right: 0;
+      }
+      .image {
         float: left;
       }
-      h1,
-      p {
-        padding-left: (@gridGutterWidth / 2);
-      }
-    }
-    &:first-child {
-      margin-top: (@gridGutterWidth * 4);
     }
     &:last-child {
-      margin-bottom: (@gridGutterWidth * 4);
+      margin: 0;
     }
   }
-  img {
-    border-radius: 325px;
+  .text {
+    float: left;
+    width: 600px;
+    padding-right: (@gridGutterWidth * 2);
+  }
+  .image {
     float: right;
-    height: 325px;
-    width: 325px;
+    position: relative;
+    img {
+      background-color: #555;
+      border-radius: 280px;
+      height: 280px;
+      width: 280px;
+    }
   }
   h1 {
-    font-family: "Adelle Thin Italic";
-    font-size: @fontSizeBase * 3;
-    line-height: 1.1;
-    margin: 0;
+    font-family: "Adelle Thin", sans-serif;
+    font-size: @fontSizeBase + 12;
+    line-height: 1.15;
+    margin-bottom: @gridGutterWidth;
   }
   p {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: @fontSizeExtraLarge;
-    font-weight: 400;
-    line-height: 1.25;
-    margin-top: (@gridGutterWidth + 10);
-    overflow: hidden;
+    font-size: @fontSizeBase;
+    line-height: 1.45;
+    margin-bottom: @gridGutterWidth;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
 #footer {
-  background-color: #333;
-  color: #fff;
+  background-color: @bodyColor;
+  color: @bodyBackgroundColor;
   padding: (@gridGutterWidth * 4) 0;
-  text-align: center;
-  .grid-row:last-child {
-    margin-top: (@gridGutterWidth * 4);
-  }
 }
