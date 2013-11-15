@@ -40,6 +40,15 @@ $app->get('/', function () use ($app) {
 });
 
 /**
+* Define route: GET /om
+*/
+$app->get('/om', function () use ($app) {
+    $app->render('index/header', ['pageTitle' => 'Om Telespinn']);
+    $app->render('index/index');
+    $app->render('index/footer');
+});
+
+/**
 * Define route: GET /inspirasjon
 */
 $app->get('/inspirasjon', function () use ($app) {

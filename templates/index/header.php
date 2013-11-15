@@ -4,28 +4,36 @@
     <title><?= $data['pageTitle']; ?> | Telespinn</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link href="<?= \Telespinn\URL::toBase(); ?>/assets/stylesheets/css/style.css" rel="stylesheet">
-    <link href="<?= \Telespinn\URL::toBase(); ?>/assets/images/logo-green.png" rel="icon">
+    <link href="assets/stylesheets/css/style.css" rel="stylesheet">
+    <link href="assets/images/logo-green.png" rel="icon">
   </head>
   <body>
-    <?php if(\Telespinn\URL::getSegment()) : ?>
-      <nav class="pinned locked" id="navigation">
-    <?php else : ?>
-      <nav id="navigation">
-    <?php endif; ?>
-      <div class="container">
-        <div class="column">
-          <div class="wrapper">
-            <a class="home-link" href="/"></a>
-            <a class="scroll-past-top">Om Telespinn</a>
-            <a href="/inspirasjon">Inspirasjon</a>
-            <a href="/butikk">Butikk</a>
+    <header id="header">
+      <?php if(\Telespinn\Telespinn::isIndex()) : ?>
+        <nav id="navigation">
+      <?php else : ?>
+        <nav class="locked pinned-to-top" id="navigation">
+      <?php endif; ?>
+        <div class="container">
+          <div class="grid-row">
+            <div class="grid-column grid-span-8">
+              <div class="wrapper">
+                <a class="home-link" href="/"></a>
+                <?php if(\Telespinn\Telespinn::isIndex()) : ?>
+                  <a class="scroll-past-top">Om Telespinn</a>
+                <?php else : ?>
+                  <a href="/om">Om Telespinn</a>
+                <?php endif; ?>
+                  <a href="/inspirasjon">Inspirasjon</a>
+                <a href="/butikk">Butikk</a>                
+              </div>
+            </div>
+            <div class="grid-column grid-span-4">
+              <div class="wrapper">
+                <a href="/min-side">Min side</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="wrapper">
-            <a href="/min-side">Min side</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>

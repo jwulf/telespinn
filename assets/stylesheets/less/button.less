@@ -1,0 +1,50 @@
+.button() {
+  .user-select(none);
+  border-radius: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5) !important;
+  display: block;
+  float: left;
+  font-size: @fontSize;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-right: (@gridGutterWidth + 2);
+  padding: 8px 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.35);
+  }
+  &:active {
+    .box-shadow(0 0 10px rgba(0, 0, 0, 0.05) inset);
+    border-color: rgba(0, 0, 0, 0.55);
+  }
+}
+.button {
+  .button();
+}
+.button-light {
+  .button();
+  border-color: rgb(0, 168, 93);
+  color: rgb(0, 168, 93) !important;
+  &:hover {
+    border-color: lighten(rgb(0, 168, 93), 5%);
+  }
+  &:active {
+    border-color: darken(rgb(0, 168, 93), 5%);
+  }
+}
+.button-dark {
+  .button();
+  background-color: rgb(0, 168, 93);
+  border: 0;
+  color: #fff !important;
+  padding: 10px;
+  &:hover {
+    background-color: lighten(rgb(0, 168, 93), 5%);
+  }
+  &:active {
+    background-color: darken(rgb(0, 168, 93), 5%);
+  }
+}

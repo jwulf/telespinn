@@ -1,63 +1,12 @@
 <div id="container">
-  <div class="content">
-    <div class="grid-row">
-      <div class="container">
-        <h1>Inspirasjon</h1>
-        <div class="grid-row">
-          <div class="grid-column grid-span-12">
-            <h2>
-              <a href="/inspirasjon/barneklaer">Barneklær</a>
-            </h2>
-            <div class="grid-row">
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-column grid-span-12">
-            <h2>
-              <a href="/inspirasjon/sjal-og-skjerf">Sjal og skjerf</a>
-            </h2>
-            <div class="grid-row">
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-column grid-span-12">
-            <h2>
-              <a href="/inspirasjon/tepper-og-ryer">Tepper og ryer</a>
-            </h2>
-            <div class="grid-row">
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-              <div class="grid-column grid-span-4">
-                <div style="background-color: #ccc; height: 200px;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="container">
+    <div id="page">
+      <h1>Inspirasjon</h1>
+      <p>
+        <a class="button">Button</a>
+        <a class="button-light">Button</a>
+        <a class="button-dark">Button</a>
+      </p>
     </div>
   </div>
 </div>

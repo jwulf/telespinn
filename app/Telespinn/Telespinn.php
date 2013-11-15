@@ -10,4 +10,8 @@ class Telespinn
         print_r($variable);
         echo '</pre>';
     }
+
+    public static function isIndex() {
+        return (\Telespinn\URL::getSegment()) ? false : true;
+    }
 }

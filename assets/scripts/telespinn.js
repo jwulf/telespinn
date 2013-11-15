@@ -6,7 +6,8 @@
         var selfHeight = self.height();
         var parent = self.parent();
         var parentHeight = parent.height();
-        var offsetTop = ((parentHeight - selfHeight) / 2);
+        var offsetTop = ((parentHeight - selfHeight - 10) / 2);
+            offsetTop = Math.floor(offsetTop);
 
         self.css('top', offsetTop);
       });
@@ -28,14 +29,14 @@
 
       timer = setTimeout(function () {
         if(scrollPosition >= scrollThreshold) {
-          navigationBar.addClass('pinned');
+          navigationBar.addClass('pinned-to-top');
         } else {
-          navigationBar.removeClass('pinned');
+          navigationBar.removeClass('pinned-to-top');
         }
       }, 100);
     }
   });
-
+  
   $('.scroll-past-top').on('click', function() {
     $('html, body').animate({
       scrollTop: ($(window).height() - 60)
