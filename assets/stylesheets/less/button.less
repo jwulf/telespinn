@@ -1,8 +1,8 @@
 .button() {
   .user-select(none);
   border-radius: 2px;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.5) !important;
+  border: 2px solid rgb(125, 125, 125);
+  color: rgb(125, 125, 125) !important;
   display: block;
   float: left;
   font-size: @fontSize;
@@ -14,11 +14,11 @@
     margin-right: 0;
   }
   &:hover {
-    border-color: rgba(0, 0, 0, 0.35);
+    border-color: lighten(rgb(125, 125, 125), 10%);
   }
   &:active {
     .box-shadow(0 0 10px rgba(0, 0, 0, 0.05) inset);
-    border-color: rgba(0, 0, 0, 0.55);
+    border-color: darken(rgb(125, 125, 125), 5%);
   }
 }
 .button {
@@ -42,7 +42,7 @@
   color: #fff !important;
   padding: 10px;
   &:hover {
-    background-color: lighten(rgb(0, 168, 93), 5%);
+    background-color: lighten(rgb(0, 168, 93), 10%);
   }
   &:active {
     background-color: darken(rgb(0, 168, 93), 5%);
