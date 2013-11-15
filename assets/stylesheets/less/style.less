@@ -69,6 +69,7 @@ a {
 #navigation {
   height: 60px;
   position: absolute;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   top: @gridGutterWidth;
   width: 100%;
   z-index: 999;
@@ -117,6 +118,7 @@ a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   height: 51px;
   position: fixed;
+  text-shadow: none;
   top: 0;
   a {
     border-bottom: 0;
@@ -180,6 +182,7 @@ a {
   border-bottom: 10px solid @backgroundColor;
   height: 100%;
   position: relative;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
   .container {
     height: 100%;
   }
@@ -235,7 +238,7 @@ a {
     padding-top: 0;
   }
   &:nth-child(even) {
-    background-color: rgba(19, 122, 69, 0.075);
+    background-color: lighten(@colorPrimary, 65%);
     .text {
       float: right;
       padding-left: (@gridGutterWidth * 2);
