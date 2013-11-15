@@ -14,7 +14,7 @@
     'scroll': function () {
       var self = $(this);
       var navigationBar = $('#navigation').not('.locked');
-      var scrollThreshold = (self.height() - 10 - 50);
+      var scrollThreshold = (self.height() - 60);
       var scrollPosition = self.scrollTop();
       var timer = 0;
 
@@ -38,7 +38,7 @@
 
   $('.scroll-past-top').on('click', function() {
     $('html, body').animate({
-      scrollTop: ($(window).height() - 10 - 50)
+      scrollTop: ($(window).height() - 60)
     }, 500);
   });
 })();

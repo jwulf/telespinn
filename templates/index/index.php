@@ -1,8 +1,4 @@
-<?php if(\Telespinn\URL::getSegment()) : ?>
-  <div class="pinned" id="container">
-<?php else : ?>
-  <div id="container">
-<?php endif; ?>
+<div id="container">
   <div class="content index">
     <div class="grid-row">
       <div class="container">

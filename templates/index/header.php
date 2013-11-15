@@ -6,7 +6,6 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link href="<?= \Telespinn\URL::toBase(); ?>/assets/stylesheets/css/style.css" rel="stylesheet">
     <link href="<?= \Telespinn\URL::toBase(); ?>/assets/images/logo-green.png" rel="icon">
-    <link href='http://fonts.googleapis.com/css?family=Doppio+One:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <?php if(\Telespinn\URL::getSegment()) : ?>
