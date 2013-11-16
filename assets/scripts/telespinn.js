@@ -36,7 +36,7 @@
       }, 100);
     }
   });
-  
+
   $('.scroll-past-top').on('click', function() {
     $('html, body').animate({
       scrollTop: ($(window).height() - 60)

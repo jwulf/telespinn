@@ -112,17 +112,17 @@ a {
   }
 }
 #navigation.pinned-to-top {
-  .box-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+  .box-shadow(0 1px 1px #eee);
   .transition(all 100ms ease);
   background-color: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #eee;
   height: 51px;
   position: fixed;
   text-shadow: none;
   top: 0;
   a {
     border-bottom: 0;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid #eee;
     color: @color;
     display: block;
     float: left;
@@ -130,10 +130,10 @@ a {
     margin-right: 0;
     padding: 0 15px;
     &:last-child {
-      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      border-right: 1px solid #eee;
     }
     &:hover {
-      background-color: lighten(@colorPrimary, 60%);
+      background-color: lighten(@colorPrimary, 65%);
       color: @colorPrimary;
     }
     &:active {
@@ -238,7 +238,7 @@ a {
     padding-top: 0;
   }
   &:nth-child(even) {
-    background-color: lighten(@colorPrimary, 60%);
+    background-color: lighten(@colorPrimary, 65%);
     .text {
       float: right;
       padding-left: (@gridGutterWidth * 2);
