@@ -1,28 +1,41 @@
 .table {
   .box-shadow(0 1px 1px #eee);
   background-color: #fff;
-  border-collapse: separate;
-  border-spacing: 5px;
   border: 1px solid #eee;
+  font-size: (@fontSize - 4);
   margin-top: @gridGutterWidth;
+  padding: 5px;
   width: 100%;
-  .table-cell() {
-    background-color: #f9f9f9;
-    font-size: (@fontSize - 2);
-    padding: 10px;
+  .table-row() {
+    .clearfix();
+    background-color: #f5f5f5;
+    line-height: 51px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    width: 100%;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
-  .table-header {
-    .table-cell();
-    background: none;
-    font-size: (@fontSize - 6);
-    padding: 5px;
-    text-align: left;
-    text-transform: uppercase;
+  .table-row {
+    .table-row();
   }
   .table-cell {
-    .table-cell();
+    float: left;
+    width: 10%;
   }
-  .table-cell-options {
+  .table-header {
+    .table-row();
+    background: none;
+    font-weight: 600;
+    line-height: 1;
+    padding: 5px 10px;
+    .table-cell {
+      font-size: (@fontSize - 6);
+      text-transform: uppercase;
+    }
+  }
+  .table-options {
     text-align: right;
     .button-light,
     .button-dark {
@@ -38,5 +51,35 @@
     .button-dark {
       padding: 8px;
     }
+  }
+  .table-cell-span-1 {
+    width: 10%;
+  }
+  .table-cell-span-2 {
+    width: 20%;
+  }
+  .table-cell-span-3 {
+    width: 30%;
+  }
+  .table-cell-span-4 {
+    width: 40%;
+  }
+  .table-cell-span-5 {
+    width: 50%;
+  }
+  .table-cell-span-6 {
+    width: 60%;
+  }
+  .table-cell-span-7 {
+    width: 70%;
+  }
+  .table-cell-span-8 {
+    width: 80%;
+  }
+  .table-cell-span-9 {
+    width: 90%;
+  }
+  .table-cell-span-10 {
+    width: 100%;
   }
 }
