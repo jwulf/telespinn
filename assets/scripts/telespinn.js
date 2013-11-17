@@ -6,7 +6,7 @@
         var selfHeight = self.height();
         var parent = self.parent();
         var parentHeight = parent.height();
-        var offsetTop = ((parentHeight - selfHeight - 10) / 2);
+        var offsetTop = ((parentHeight - selfHeight - 15) / 2);
             offsetTop = Math.floor(offsetTop);
 
         self.css('top', offsetTop);
