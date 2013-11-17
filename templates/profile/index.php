@@ -8,7 +8,7 @@
             <div class="grid-column grid-span-12">
               <h2>Inspirasjon</h2>
               <p>
-                Har du laget noe flott med våre produkter? Eller har du kanskje noen gode tips? Del det du kan med andre strikkere! 
+                Har du laget noe flott med våre produkter? Eller har du kanskje noen gode tips? Del det du kan med andre strikkere! Skriv en artikkel eller bruk hashtag <code>#telespinn</code> på <a href="https://www.facebook.com/hashtag/telespinn" target="_blank">Facebook</a>, <a href="http://instagram.com/telespinn" target="_blank">Instagram</a> og/eller <a href="https://twitter.com/search?q=%23telespinn" target="_blank">Twitter</a>.
               </p>
               <p>
                 Nedenfor finner du alle dine innsendte inspirasjonsartikler:
@@ -126,7 +126,7 @@
               <div class="table-body">
                 <div class="table-row">
                   <div class="table-cell table-cell-span-3">
-                    <a href="/">125</a>
+                    <a href="/">125</a> (kopi av <a href="/">#124</a>)
                   </div>
                   <div class="table-cell table-cell-span-1">
                     01.11.2013
@@ -135,7 +135,7 @@
                     02.11.2013
                   </div>
                   <div class="table-cell table-cell-span-1">
-                    1 500,00
+                    1 000,00
                   </div>
                   <div class="table-cell table-cell-span-4 table-options">
                     <a class="button-light button-green">Se faktura</a>
@@ -181,6 +181,17 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="grid-row">
+        <div class="grid-column grid-span-12">
+          <h2>Slett min bruker</h2>
+          <p>
+            Du kan når som helst slette din bruker og all tilhørende informasjon om deg i våre systemer. Trykk på knappen nedenfor, og bekreft så ditt valg.
+          </p>
+          <p>
+            <a href="/" class="button-dark button-red">Slett min bruker, og logg meg ut</a>
+          </p>
         </div>
       </div>
     </div>

@@ -70,6 +70,13 @@ a {
     color: #bbb;
   }
 }
+code {
+  background-color: lighten(@colorPrimary, 55%);
+  color: @colorPrimary;
+  font-family: Menlo, monospace;
+  font-size: (@fontSize - 2);
+  padding: 4px;
+}
 
 /**
 * Main Navigation
@@ -293,6 +300,9 @@ a {
   padding: ((@gridGutterWidth * 3 * 2) - 10) 0 (@gridGutterWidth * 3);
   > .grid-row {
     margin-bottom: 0;
+  }
+  p {
+    padding-right: 25%;
   }
 }
 
