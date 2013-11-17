@@ -11,6 +11,16 @@
 
         self.css('top', offsetTop);
       });
+
+      $('#navigation a').each(function() {
+        var path = location.pathname;
+        var link = $('#navigation a[href="' + path + '"');
+
+        if(link) {
+          $('#navigation a').removeClass('active');
+          link.addClass('active');
+        }
+      });
     },
     'scroll': function () {
       var self = $(this);
