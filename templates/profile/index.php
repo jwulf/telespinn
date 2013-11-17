@@ -11,7 +11,7 @@
                 Har du laget noe flott med våre produkter? Eller har du kanskje noen gode tips? Del det du kan med andre strikkere! I kommentarfeltet under hver artikkel får du hjelp og tilbakemeldinger.
               </p>
               <p>
-                Skriv en artikkel eller bruk <abbr title="«Et ord eller frase som starter med symbolet #, og som er en måte å kommunisere rundt et emne i sosiale medier»">hashtag</abbr> <code>#telespinn</code> på <a href="https://www.facebook.com/hashtag/telespinn" target="_blank">Facebook</a>, <a href="http://instagram.com/telespinn" target="_blank">Instagram</a> og <a href="https://twitter.com/search?q=%23telespinn" target="_blank">Twitter</a>.
+                Skriv en artikkel eller bruk <abbr title="«Et ord eller frase som starter med symbolet #, og som er en måte å kommunisere rundt et emne i sosiale medier.»">hashtag</abbr> <code>#telespinn</code> på <a href="https://www.facebook.com/hashtag/telespinn" target="_blank">Facebook</a>, <a href="http://instagram.com/telespinn" target="_blank">Instagram</a> og <a href="https://twitter.com/search?q=%23telespinn" target="_blank">Twitter</a>.
               </p>
               <p>
                 Nedenfor finner du dine innsendte inspirasjonsartikler:
