@@ -73,7 +73,7 @@
         <div class="grid-column grid-span-12">
           <h2>Ordrehistorikk</h2>
           <p>
-            Nedenfor finner du alle tidligere ordre du har gjennomført hos oss:
+            Nedenfor finner du alle dine tidligere ordre:
           </p>
           <table class="table">
             <tr class="table-row">
