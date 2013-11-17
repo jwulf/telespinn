@@ -1,0 +1,47 @@
+.table {
+  background-color: #fff;
+  border-collapse: separate;
+  border-spacing: 5px;
+  border: 1px solid #eee;
+  margin-top: @gridGutterWidth;
+  width: 100%;
+  .table-row {
+    &:nth-child(even) .table-cell {
+      background-color: rgba(0, 0, 0, 0.025);
+    }
+    &:nth-child(odd) .table-cell {
+      background-color: rgba(0, 0, 0, 0.0125);
+    }
+  }
+  .table-cell() {
+    font-size: (@fontSize - 2);
+    padding: 10px;
+  }
+  .table-header {
+    .table-cell();
+    font-size: (@fontSize - 6);
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .table-cell {
+    .table-cell();
+  }
+  .table-cell-options {
+    text-align: right;
+    .button-light,
+    .button-dark {
+      display: inline-block;
+      float: none;
+      font-size: (@fontSize - 4);
+      margin-left: 5px;
+      margin-right: 0;
+    }
+    .button-light {
+      padding: 6px;
+    }
+    .button-dark {
+      padding: 8px;
+    }
+  }
+}

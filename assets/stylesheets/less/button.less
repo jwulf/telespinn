@@ -1,50 +1,131 @@
-.button() {
+.button-light() {
   .user-select(none);
   border-radius: 2px;
-  border: 2px solid rgb(125, 125, 125);
-  color: rgb(125, 125, 125) !important;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  color: rgb(0, 0, 0);
   display: block;
   float: left;
-  font-size: @fontSize;
+  font-size: (@fontSize - 2);
   font-weight: 600;
   line-height: 1.25;
-  margin-right: (@gridGutterWidth + 2);
-  padding: 8px 10px;
+  margin-right: @gridGutterWidth;
+  padding: 8px;
   &:last-child {
     margin-right: 0;
   }
   &:hover {
-    border-color: lighten(rgb(125, 125, 125), 10%);
+    border-color: rgba(0, 0, 0, 0.9);
+    color: rgb(0, 0, 0);
   }
   &:active {
-    .box-shadow(0 0 10px rgba(0, 0, 0, 0.05) inset);
-    border-color: darken(rgb(125, 125, 125), 5%);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
   }
 }
-.button {
-  .button();
-}
-.button-light {
-  .button();
-  border-color: rgb(0, 168, 93);
-  color: rgb(0, 168, 93) !important;
-  &:hover {
-    border-color: lighten(rgb(0, 168, 93), 10%);
-  }
-  &:active {
-    border-color: darken(rgb(0, 168, 93), 5%);
-  }
-}
-.button-dark {
-  .button();
-  background-color: rgb(0, 168, 93);
+.button-dark() {
+  .button-light();
+  background-color: rgba(0, 0, 0, 0.7);
   border: 0;
-  color: #fff !important;
+  color: rgb(255, 255, 255);
   padding: 10px;
   &:hover {
-    background-color: lighten(rgb(0, 168, 93), 10%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
   }
   &:active {
-    background-color: darken(rgb(0, 168, 93), 5%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+  }
+}
+
+.button-light {
+  .button-light();
+}
+.button-dark {
+  .button-dark();
+}
+.button-light.button-black {
+  .button-light();
+}
+.button-dark.button-black {
+  .button-dark();
+}
+.button-light.button-white {
+  .button-light();
+  border-color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.9);
+    color: rgb(255, 255, 255);
+  }
+  &:active {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+  }
+}
+.button-dark.button-white {
+  .button-dark();
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0);
+  text-shadow: none;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0);
+  }
+  &:active {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+  }
+}
+.button-light.button-red {
+  .button-light();
+  border-color: rgb(205, 81, 75);
+  color: rgb(205, 81, 75);
+  &:hover {
+    border-color: lighten(rgb(205, 81, 75), 10%);
+    color: lighten(rgb(205, 81, 75), 10%);
+  }
+  &:active {
+    border-color: darken(rgb(205, 81, 75), 10%);
+    color: darken(rgb(205, 81, 75), 10%);
+  }
+}
+.button-dark.button-red {
+  .button-dark();
+  background-color: rgb(205, 81, 75);
+  color: rgb(255, 255, 255);
+  &:hover {
+    background-color: lighten(rgb(205, 81, 75), 5%);
+    color: rgb(255, 255, 255);
+  }
+  &:active {
+    background-color: darken(rgb(205, 81, 75), 5%);
+    color: rgb(255, 255, 255);
+  }
+}
+.button-light.button-green {
+  .button-light();
+  border-color: rgb(76, 140, 81);
+  color: rgb(76, 140, 81);
+  &:hover {
+    border-color: lighten(rgb(76, 140, 81), 10%);
+    color: lighten(rgb(76, 140, 81), 10%);
+  }
+  &:active {
+    border-color: darken(rgb(76, 140, 81), 10%);
+    color: darken(rgb(76, 140, 81), 10%);
+  }
+}
+.button-dark.button-green {
+  .button-dark();
+  background-color: rgb(76, 140, 81);
+  color: rgb(255, 255, 255);
+  &:hover {
+    background-color: lighten(rgb(76, 140, 81), 5%);
+    color: rgb(255, 255, 255);
+  }
+  &:active {
+    background-color: darken(rgb(76, 140, 81), 5%);
+    color: rgb(255, 255, 255);
   }
 }

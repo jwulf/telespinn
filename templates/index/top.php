@@ -6,8 +6,8 @@
         Telespinn er et spinneri på gården Midt-Svartdal<br>som har spesialisert seg på miljøvennlig produksjon<br>av garn og tekstiler fra mohairgeita.
       </p>
       <p>
-        <a class="button-light scroll-past-top">Les mer om Telespinn og Midt-Svartdal</a>
-        <a class="button-dark" href="/butikk">Kjøp garn i nettbutikken</a>
+        <a class="button-light button-white scroll-past-top">Les mer om Telespinn og Midt-Svartdal</a>
+        <a class="button-dark button-green" href="/butikk">Kjøp garn i nettbutikken</a>
       </p>
     </div>
   </div>

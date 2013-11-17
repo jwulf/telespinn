@@ -19,13 +19,8 @@
             <div class="grid-column grid-span-8">
               <div class="wrapper">
                 <a class="home-link" href="/"></a>
-                <?php if(\Telespinn\Telespinn::isIndex()) : ?>
-                  <a class="scroll-past-top">Om Telespinn</a>
-                <?php else : ?>
-                  <a href="/om">Om Telespinn</a>
-                <?php endif; ?>
-                  <a href="/inspirasjon">Inspirasjon</a>
                 <a href="/butikk">Butikk</a>                
+                <a href="/inspirasjon">Inspirasjon</a>
               </div>
             </div>
             <div class="grid-column grid-span-4">
