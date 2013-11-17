@@ -28,6 +28,20 @@
                 </tr>
                 <tr class="table-row">
                   <td class="table-cell">
+                    <a href="/">Artikkel 3</a>
+                  </td>
+                  <td class="table-cell">
+                    01.12.2013
+                  </td>
+                  <td class="table-cell">
+                    01.12.2013
+                  </td>
+                  <td class="table-cell table-cell-options">
+                    <a class="button-light button-red">Fjern artikkel</a>
+                  </td>
+                </tr>
+                <tr class="table-row">
+                  <td class="table-cell">
                     <a href="/">Artikkel 2</a>
                   </td>
                   <td class="table-cell">
@@ -87,6 +101,21 @@
                 Beløp
               </th>
               <th class="table-header" width="50%"></th>
+            </tr>
+            <tr class="table-row">
+              <td class="table-cell">
+                3
+              </td>
+              <td class="table-cell">
+                15.11.2013
+              </td>
+              <td class="table-cell">
+                NOK 750,00
+              </td>
+              <td class="table-cell table-cell-options">
+                <a class="button-light button-green">Se faktura</a>
+                <a class="button-light button-green">Bestill ordre på nytt</a>
+              </td>
             </tr>
             <tr class="table-row">
               <td class="table-cell">

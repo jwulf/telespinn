@@ -5,20 +5,14 @@
   border: 1px solid #eee;
   margin-top: @gridGutterWidth;
   width: 100%;
-  .table-row {
-    &:nth-child(even) .table-cell {
-      background-color: rgba(0, 0, 0, 0.025);
-    }
-    &:nth-child(odd) .table-cell {
-      background-color: rgba(0, 0, 0, 0.0125);
-    }
-  }
   .table-cell() {
+    background-color: #f9f9f9;
     font-size: (@fontSize - 2);
     padding: 10px;
   }
   .table-header {
     .table-cell();
+    background: none;
     font-size: (@fontSize - 6);
     padding: 5px;
     text-align: left;
