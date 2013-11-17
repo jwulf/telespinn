@@ -194,7 +194,7 @@
           </p>
           <p>
             <a class="button-dark button-red">Slett min bruker, og logg meg ut</a>
-            <a class="button-light button-green">Kontakt kundeservice</a>
+            <a class="button-light button-green">Prat med kundeservice</a>
           </p>
         </div>
       </div>
