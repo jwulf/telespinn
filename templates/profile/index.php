@@ -11,7 +11,7 @@
                 Har du laget noe flott med våre produkter? Eller har du kanskje noen gode tips? Del det du kan med andre strikkere! Skriv en artikkel eller bruk hashtag <code>#telespinn</code> på <a href="https://www.facebook.com/hashtag/telespinn" target="_blank">Facebook</a>, <a href="http://instagram.com/telespinn" target="_blank">Instagram</a> og/eller <a href="https://twitter.com/search?q=%23telespinn" target="_blank">Twitter</a>.
               </p>
               <p>
-                Nedenfor finner du alle dine innsendte inspirasjonsartikler:
+                Nedenfor finner du dine innsendte inspirasjonsartikler:
               </p>
               <div class="table">
                 <div class="table-wrapper">
@@ -104,7 +104,7 @@
         <div class="grid-column grid-span-12">
           <h2>Ordrehistorikk</h2>
           <p>
-            Nedenfor finner du alle dine tidligere ordre:
+            Nedenfor finner du dine tidligere ordre:
           </p>
           <div class="table">
             <div class="table-wrapper">
@@ -191,6 +191,7 @@
           </p>
           <p>
             <a href="/" class="button-dark button-red">Slett min bruker, og logg meg ut</a>
+            <a href="/" class="button-light button-green">Kontakt kundeservice</a>
           </p>
         </div>
       </div>
