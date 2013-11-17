@@ -33,7 +33,7 @@
                   <div class="table-body">
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a href="/">Artikkel 3</a>
+                        <a>Artikkel 3</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Generell
@@ -50,7 +50,7 @@
                     </div>
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a href="/">Artikkel 2</a>
+                        <a>Artikkel 2</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Produkt
@@ -67,7 +67,7 @@
                     </div>
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a href="/">Artikkel 1</a>
+                        <a>Artikkel 1</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Generell
@@ -110,7 +110,7 @@
             <div class="table-wrapper">
               <div class="table-header">
                 <div class="table-cell table-cell-span-3">
-                  Ordre
+                  Ordrenummer
                 </div>
                 <div class="table-cell table-cell-span-1">
                   Bestilt
@@ -126,7 +126,7 @@
               <div class="table-body">
                 <div class="table-row">
                   <div class="table-cell table-cell-span-3">
-                    <a href="/">125</a> (kopi av <a href="/">#124</a>)
+                    <a>125</a> (kopi av <a>#124</a>)
                   </div>
                   <div class="table-cell table-cell-span-1">
                     01.11.2013
@@ -144,7 +144,7 @@
                 </div>
                 <div class="table-row">
                   <div class="table-cell table-cell-span-3">
-                    <a href="/">124</a>
+                    <a>124</a>
                   </div>
                   <div class="table-cell table-cell-span-1">
                     01.10.2013
@@ -162,7 +162,7 @@
                 </div>
                 <div class="table-row">
                   <div class="table-cell table-cell-span-3">
-                    <a href="/">123</a>
+                    <a>123</a>
                   </div>
                   <div class="table-cell table-cell-span-1">
                     01.09.2013
@@ -190,8 +190,8 @@
             Du kan når som helst slette din bruker og all tilhørende informasjon om deg i våre systemer. Trykk på knappen nedenfor, og bekreft så ditt valg.
           </p>
           <p>
-            <a href="/" class="button-dark button-red">Slett min bruker, og logg meg ut</a>
-            <a href="/" class="button-light button-green">Kontakt kundeservice</a>
+            <a class="button-dark button-red">Slett min bruker, og logg meg ut</a>
+            <a class="button-light button-green">Kontakt kundeservice</a>
           </p>
         </div>
       </div>
