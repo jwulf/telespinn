@@ -314,6 +314,71 @@ code {
     padding-right: 25%;
   }
 }
+#page .box {
+  background-color: #ccc;
+  height: 250px;
+  margin-top: @gridGutterWidth;
+  position: relative;
+  a {
+    &:hover {
+      .text {
+        display: block;
+      }
+    }
+  }
+  .image {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .text {
+    .transition(all 500ms ease);
+    background-color: rgba(76, 140, 81, 0.75);
+    color: #fff;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    .text-wrapper {
+      padding: (@gridGutterWidth * 2 + 4) (@gridGutterWidth * 2);
+    }
+    h3,
+    p {
+      display: block;
+      padding: 0;
+      text-align: center;
+    }
+    h3 {
+      font-family: "Adelle Italic", sans-serif;
+      font-size: (@fontSize + 4);
+    }
+    p {
+      font-family: "Adelle Thin", sans-serif;
+      margin: @gridGutterWidth 0;
+    }
+    .price {
+      font-weight: 600;
+      font-size: (@fontSize + 4);
+    }
+    .availability {
+      background-color: rgba(255, 255, 255, 0.75);
+      height: 10px;
+      .bar {
+        background-color: rgba(76, 140, 81, 0.5);
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
 
 /**
 * Single
