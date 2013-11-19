@@ -12,7 +12,7 @@
 /**
 * Variables
 */
-@colorPrimary: #00a85d;
+@colorPrimary: #4c8c51;
 @colorSecondary: lighten(@colorPrimary, 10%);
 @colorTertiary: #2e4a42;
 @backgroundColor: #fff;
@@ -76,11 +76,14 @@ abbr[title] {
   cursor: help;
 }
 code {
-  background-color: lighten(@colorPrimary, 55%);
+  background-color: rgba(76, 140, 81, 0.15);
   color: @colorPrimary;
   font-family: Menlo, monospace;
-  font-size: (@fontSize - 2);
+  font-size: (@fontSize - 4);
+  margin: 0 2px;
   padding: 4px;
+  position: relative;
+  top: -1px;
 }
 
 /**
@@ -135,14 +138,14 @@ code {
   .box-shadow(0 1px 1px #eee);
   .transition(all 100ms ease);
   background-color: #fff;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ddd;
   height: 51px;
   position: fixed;
   text-shadow: none;
   top: 0;
   a {
     border-bottom: 0;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #ddd;
     color: @color;
     display: block;
     float: left;
@@ -150,11 +153,11 @@ code {
     margin-right: 0;
     padding: 0 15px;
     &:last-child {
-      border-right: 1px solid #eee;
+      border-right: 1px solid #ddd;
     }
     &:hover,
     &.active {
-      background-color: lighten(@colorPrimary, 62.5%);
+      background-color: rgba(76, 140, 81, 0.1);
       color: @colorPrimary;
     }
     &:active {
@@ -245,11 +248,11 @@ code {
     cursor: pointer;
     display: block;
     height: 20px;
+    left: 50%;
+    margin-left: -17px;
     margin: 0 auto;
     position: absolute;
     width: 35px;
-    left: 50%;
-    margin-left: -17px;
   }
 }
 
@@ -269,7 +272,7 @@ code {
     padding-top: 0;
   }
   &:nth-child(even) {
-    background-color: lighten(@colorPrimary, 62.5%);
+    background-color: rgba(76, 140, 81, 0.1);
     .text {
       float: right;
       padding-left: (@gridGutterWidth * 2);
