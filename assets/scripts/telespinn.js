@@ -4,9 +4,11 @@
       $('.position-vertical').each(function() {
         var self =  $(this);
         var selfHeight = self.height();
+        var selfId = self.attr('id');
         var parent = self.parent();
         var parentHeight = parent.height();
-        var offsetTop = ((parentHeight - selfHeight - 15) / 2);
+        var offsetTop = (selfId == 'top-text') ? (parentHeight - selfHeight - 15) : (parentHeight - selfHeight);
+            offsetTop = (offsetTop / 2);
             offsetTop = Math.floor(offsetTop);
 
         self.css('top', offsetTop);
