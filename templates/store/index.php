@@ -92,7 +92,7 @@
                     <div class="text-wrapper">
                       <h3 class="title">Kidmohairsjal</h3>
                       <p class="description">
-                        Vevet sjal av Marigarn med renning i silke.
+                        Vevet sjal av Marigarn<br>med renning i silke.
                       </p>
                       <p class="price">
                         kr 1 000
@@ -115,7 +115,7 @@
                     <div class="text-wrapper">
                       <h3 class="title">Håndvarmer</h3>
                       <p class="description">
-                        Håndstrikket håndvarmer av Marigarn
+                        Strikket håndvarmer<br>av Marigarn
                       </p>
                       <p class="price">
                         kr 500
@@ -138,7 +138,7 @@
                     <div class="text-wrapper">
                       <h3 class="title">Kidmohairskjerf</h3>
                       <p class="description">
-                        Håndstrikket skjerf av vårt eget Marigarn
+                        Håndstrikket skjerf av<br>vårt eget Marigarn
                       </p>
                       <p class="price">
                         kr 700
