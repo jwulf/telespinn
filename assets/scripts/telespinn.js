@@ -42,7 +42,7 @@
       }
 
       timer = setTimeout(function () {
-        if(scrollPosition > scrollThreshold) {
+        if(scrollPosition >= scrollThreshold) {
           navigationBar.addClass('pinned-to-top');
         } else {
           navigationBar.removeClass('pinned-to-top');
