@@ -26,14 +26,14 @@
     },
     'scroll': function () {
       var self = $(this);
-      var navigationBar = $('#navigation').not('.locked-to-top');
+      var navigationBar = $('#navigation');
       var scrollThreshold = (self.height() - 60);
       var scrollPosition = self.scrollTop();
       var timer = 0;
 
-      if(!navigationBar) {
+      if(navigationBar.hasClass('locked-to-top')) {
         self.off('scroll');
-        
+
         return false;
       }
 
