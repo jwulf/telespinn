@@ -2,7 +2,7 @@
   <?php if(\Telespinn\Telespinn::isIndex()) : ?>
     <div id="index">
   <?php else : ?>
-    <div class="extra-padding" id="index">
+    <div class="navigation-is-pinned" id="index">
   <?php endif; ?>
     <div class="grid-row">
       <div class="container">

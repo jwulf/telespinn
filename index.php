@@ -58,9 +58,9 @@ $app->get('/inspirasjon', function () use ($app) {
 });
 
 /**
-* Define route: GET /inspirasjon/:category
+* Define route: GET /inspirasjon/:id
 */
-$app->get('/inspirasjon/:category', function () use ($app) {
+$app->get('/inspirasjon/:id', function () use ($app) {
     $app->redirect('/inspirasjon');
 });
 
@@ -74,9 +74,9 @@ $app->get('/butikk', function () use ($app) {
 });
 
 /**
-* Define route: GET /butikk/:category
+* Define route: GET /butikk/:id
 */
-$app->get('/butikk/:category', function () use ($app) {
+$app->get('/butikk/:id', function () use ($app) {
     $app->redirect('/butikk');
 });
 

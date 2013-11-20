@@ -12,7 +12,7 @@
       <?php if(\Telespinn\Telespinn::isIndex()) : ?>
         <nav id="navigation">
       <?php else : ?>
-        <nav class="locked pinned-to-top" id="navigation">
+        <nav class="locked-to-top pinned-to-top" id="navigation">
       <?php endif; ?>
         <div class="container">
           <div class="grid-row">

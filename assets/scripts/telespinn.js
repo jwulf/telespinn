@@ -4,10 +4,10 @@
       $('.position-vertical').each(function() {
         var self =  $(this);
         var selfHeight = self.height();
-        var selfId = self.attr('id');
         var parent = self.parent();
         var parentHeight = parent.height();
-        var offsetTop = (selfId == 'top-text') ? (parentHeight - selfHeight - 15) : (parentHeight - selfHeight);
+        var offsetTop = (parentHeight - selfHeight);
+            offsetTop = (self.attr('id') == 'top-text') ? (offsetTop - 15) : offsetTop;
             offsetTop = (offsetTop / 2);
             offsetTop = Math.floor(offsetTop);
 
@@ -26,12 +26,14 @@
     },
     'scroll': function () {
       var self = $(this);
-      var navigationBar = $('#navigation').not('.locked');
+      var navigationBar = $('#navigation').not('.locked-to-top');
       var scrollThreshold = (self.height() - 60);
       var scrollPosition = self.scrollTop();
       var timer = 0;
 
       if(!navigationBar) {
+        self.off('scroll');
+        
         return false;
       }
 
@@ -40,7 +42,7 @@
       }
 
       timer = setTimeout(function () {
-        if(scrollPosition >= scrollThreshold) {
+        if(scrollPosition > scrollThreshold) {
           navigationBar.addClass('pinned-to-top');
         } else {
           navigationBar.removeClass('pinned-to-top');
