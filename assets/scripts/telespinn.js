@@ -16,7 +16,7 @@
 
       $('#navigation a').each(function() {
         var path = location.pathname;
-        var link = $('#navigation a[href="' + path + '"');
+        var link = $('#navigation a[href="' + path + '"]');
 
         if(link) {
           $('#navigation a').removeClass('active');
