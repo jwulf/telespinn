@@ -18,6 +18,7 @@
 @backgroundColor: #fff;
 @color: @colorTertiary;
 @fontSize: 16px;
+@footerHeight: 435px;
 @gridGutterWidth: 20px;
 @gridMaxWidth: (900 + @gridGutterWidth);
 @gridNumberOfColumns: 12;
@@ -182,7 +183,7 @@ code {
 */
 #container {
   background-color: @backgroundColor;
-  margin-bottom: (@gridGutterWidth * 3);
+  margin-bottom: @footerHeight;
   min-height: 100%;
   overflow-x: hidden;
   .clearfix();
@@ -433,9 +434,8 @@ code {
   background-color: @colorTertiary;
   color: #fff;
   font-size: (@fontSize - 2);
-  xheight: (@gridGutterWidth * 3);
-  xline-height: (@gridGutterWidth * 3);
-  xmargin-top: -(@gridGutterWidth * 3);
+  height: @footerHeight;
+  margin-top: -@footerHeight;
   padding: (@gridGutterWidth) 0;
 }
 #footer .grid-row {
