@@ -237,7 +237,7 @@
       </div>
       <div class="grid-row">
         <div class="grid-align-center grid-column grid-span-12">
-          <img height="40" width="40" src="assets/images/logo-green.gif" style="margin-top: 60px;">
+          <img height="40" width="40" src="assets/images/logo-green-2.gif" style="margin-top: 60px;">
         </div>
       </div>
     </div>
