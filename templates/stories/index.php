@@ -7,14 +7,15 @@
       <h1><?= $data['pageTitle']; ?></h1>
       <nav id="sort">
         <div class="grid-row">
-          <div class="grid-column grid-span-8">
+          <div class="grid-column grid-span-9">
             <div class="wrapper">
               <a class="active" href="/">Vis fra kilde<span>Instagram</span></a>                
               <a href="/">Sorter etter dato</a>
               <a href="/">Sorter etter rangering</a>
+              <a class="active" href="/">Sorter etter type<span>Bilder</span></a>
             </div>
           </div>
-          <div class="grid-column grid-span-4">
+          <div class="grid-column grid-span-3">
             <div class="wrapper">
               <a href="/">Søk etter inspirasjon</a>
             </div>
