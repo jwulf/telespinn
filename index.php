@@ -81,6 +81,13 @@ $app->get('/butikk/:id', function () use ($app) {
 });
 
 /**
+* Define route: GET /kundeservice
+*/
+$app->get('/kundeservice', function () use ($app) {
+    $app->redirect('/');
+});
+
+/**
 * Define route: GET /kontakt
 */
 $app->get('/kontakt', function () use ($app) {

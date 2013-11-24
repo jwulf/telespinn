@@ -21,7 +21,8 @@
                 <a class="home-link" href="/"></a>
                 <a href="/butikk">Butikk</a>                
                 <a href="/inspirasjon">Inspirasjon</a>
-                <a class="scroll-to-footer">Kontakt oss</a>
+                <a href="/kundeservice">Kundeservice</a>
+                <a href="/kontakt">Kontakt oss</a>
               </div>
             </div>
             <div class="grid-column grid-span-4">

@@ -34,10 +34,6 @@
                 NO-3841 FLATDAL
               </li>
               <li class="list-item">
-                Besøk oss:<br>
-                Man–Fre kl. 08–16
-              </li>
-              <li class="list-item">
                 <a href="/">post@telespinn.no</a>
               </li>
               <li class="list-item">
@@ -46,7 +42,14 @@
             </ul>
           </div>
           <div class="grid-column grid-span-6">
-            <img src="assets/images/map.png">
+            <ul class="list">
+              <li class="list-item">
+                <h1>Besøk oss</h1>
+              </li>
+              <li class="list-item">
+                <img src="assets/images/map.png">
+              </li>
+            </ul>
           </div>
         </div>
         <div class="grid-row">

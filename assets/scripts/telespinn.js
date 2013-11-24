@@ -56,10 +56,4 @@
       scrollTop: ($(window).height() - 60)
     }, 500);
   });
-
-  $('.scroll-to-footer').on('click', function() {
-    $('html, body').animate({
-      scrollTop: $(document).height()
-    }, 500);
-  });
 })();
