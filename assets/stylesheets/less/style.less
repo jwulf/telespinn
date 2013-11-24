@@ -423,6 +423,28 @@ code {
       }
     }
   }
+  &.inspiration {
+    .buttons {
+      position: absolute;
+      top: 0;
+      right: 0;
+      a {
+        background-color: darken(rgb(76, 140, 81), 5%);
+        border: 0;
+        color: #fff;
+        display: block;
+        float: left;
+        font-size: (@fontSize - 4);
+        padding: 8px 10px;
+        margin-left: 2px;
+        &:hover,
+        &.active {
+          background-color: darken(rgb(76, 140, 81), 10%);
+          color: #ddd;
+        }
+      }
+    }
+  }
 }
 
 /**
@@ -487,7 +509,13 @@ code {
 #footer .grid-column {
   padding: 0 @gridGutterWidth;
 }
-#footer img {
-  width: 100%;
+#footer #footer-map {
   height: auto;
+  width: 100%;
+}
+#footer #footer-wordmark {
+  height: 18px;
+  position: relative;
+  top: 1px;
+  width: auto;
 }

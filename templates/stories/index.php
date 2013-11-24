@@ -9,10 +9,9 @@
         <div class="grid-row">
           <div class="grid-column grid-span-8">
             <div class="wrapper">
-              <a class="active" href="/">Vis alle kilder<span>Å–A</span></a>                
-              <a href="/">Vis fra Telespinn</a>
-              <a href="/">Vis fra Facebook</a>
-              <a href="/">Vis fra Instagram</a>
+              <a class="active" href="/">Vis fra kilde<span>Instagram</span></a>                
+              <a href="/">Sorter etter dato</a>
+              <a href="/">Sorter etter rangering</a>
             </div>
           </div>
           <div class="grid-column grid-span-4">
@@ -24,214 +23,130 @@
       </nav>
       <div class="grid-row">
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 283</h3>
-                  <p class="description">
-                    Pan 283 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#sjal</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 001</h3>
-                  <p class="description">
-                    Pan 001 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 25%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#vanter</a>
+              <a class="active" href="/">10 liker</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 365</h3>
-                  <p class="description">
-                    Pan 365 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a class="active" href="/">125 liker</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="grid-row">
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 283</h3>
-                  <p class="description">
-                    Pan 283 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#sjal</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 001</h3>
-                  <p class="description">
-                    Pan 001 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 25%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#vanter</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 365</h3>
-                  <p class="description">
-                    Pan 365 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="grid-row">
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 283</h3>
-                  <p class="description">
-                    Pan 283 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#sjal</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 001</h3>
-                  <p class="description">
-                    Pan 001 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 25%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">#vanter</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
         <div class="grid-column grid-span-4">
-          <div class="box">
+          <div class="box inspiration">
             <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
-              <div class="text">
-                <div class="text-wrapper">
-                  <h3 class="title">Pan 365</h3>
-                  <p class="description">
-                    Pan 365 er et slitesterkt<br>3-tråds strikkegarn.
-                  </p>
-                  <p class="price">
-                    kr 115
-                  </p>
-                  <div class="availability">
-                    <div class="bar" style="width: 90%"></div>
-                  </div>
-                </div>
-              </div>
             </a>
+            <div class="buttons">
+              <a href="/">#telespinn</a>
+              <a href="/">Jeg liker!</a>
+            </div>
           </div>
         </div>
       </div>
