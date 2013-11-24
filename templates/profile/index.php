@@ -4,7 +4,7 @@
       <nav id="breadcrumbs">
         Du er her: <a href="/">Hjem</a> » <a href="<?= \Telespinn\URL::toSelf(); ?>"><?= $data['pageTitle']; ?></a>
       </nav>
-      <h1>Min side</h1>
+      <h1><?= $data['pageTitle']; ?></h1>
       <div class="grid-row">
         <div class="grid-column grid-span-12">
           <div class="grid-row">
