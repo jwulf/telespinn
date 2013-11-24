@@ -314,6 +314,10 @@ code {
     padding-right: 25%;
   }
 }
+#page #breadcrumbs {
+  font-size: (@fontSize - 2);
+  margin-bottom: (@gridGutterWidth * 3);
+}
 #page .box {
   background-color: #ccc;
   height: 250px;
@@ -388,14 +392,32 @@ code {
 }
 
 /**
+* List
+*/
+.list {
+  list-style: none;
+  .list-item {
+    display: block;
+  }
+}
+
+/**
 * Main Footer
 */
 #footer {
   background-color: @colorTertiary;
   color: #fff;
   font-size: (@fontSize - 2);
-  height: (@gridGutterWidth * 3);
-  line-height: (@gridGutterWidth * 3);
-  margin-top: -(@gridGutterWidth * 3);
-  text-align: center;
+  xheight: (@gridGutterWidth * 3);
+  xline-height: (@gridGutterWidth * 3);
+  xmargin-top: -(@gridGutterWidth * 3);
+  padding: (@gridGutterWidth) 0;
+}
+#footer .grid-row {
+  margin-bottom: 0;
+  padding: (@gridGutterWidth) 0;
+}
+#footer img {
+  width: 100%;
+  height: auto;
 }

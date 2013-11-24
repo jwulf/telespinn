@@ -1,6 +1,9 @@
 <div id="container">
   <div class="container">
     <div id="page">
+      <nav id="breadcrumbs">
+        Du er her: <a href="/">Hjem</a> » <a href="<?= \Telespinn\URL::toSelf(); ?>"><?= $data['pageTitle']; ?></a>
+      </nav>
       <h1>Butikk</h1>
       <div class="grid-row">
         <div class="grid-column grid-span-12">

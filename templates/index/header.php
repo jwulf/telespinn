@@ -21,6 +21,7 @@
                 <a class="home-link" href="/"></a>
                 <a href="/butikk">Butikk</a>                
                 <a href="/inspirasjon">Inspirasjon</a>
+                <a href="/kontakt">Kontakt</a>
               </div>
             </div>
             <div class="grid-column grid-span-4">
