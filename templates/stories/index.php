@@ -5,12 +5,29 @@
         Du er her: <a href="/">Hjem</a> » <a href="<?= \Telespinn\URL::toSelf(); ?>"><?= $data['pageTitle']; ?></a>
       </nav>
       <h1><?= $data['pageTitle']; ?></h1>
+      <nav id="sort">
+        <div class="grid-row">
+          <div class="grid-column grid-span-8">
+            <div class="wrapper">
+              <a class="active" href="/">Vis alle kilder<span>Å–A</span></a>                
+              <a href="/">Vis fra Telespinn</a>
+              <a href="/">Vis fra Facebook</a>
+              <a href="/">Vis fra Instagram</a>
+            </div>
+          </div>
+          <div class="grid-column grid-span-4">
+            <div class="wrapper">
+              <a href="/">Søk etter inspirasjon</a>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div class="grid-row">
         <div class="grid-column grid-span-4">
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-1.jpg">
+                <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -33,7 +50,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-2.jpg">
+                <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -56,7 +73,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-3.jpg">
+                <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -81,7 +98,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-1.jpg">
+                <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -104,7 +121,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-2.jpg">
+                <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -127,7 +144,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-3.jpg">
+                <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -152,7 +169,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-1.jpg">
+                <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -175,7 +192,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-2.jpg">
+                <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -198,7 +215,7 @@
           <div class="box">
             <a href="/butikk/1">
               <div class="image">
-                <img src="assets/images/produkt-garn-3.jpg">
+                <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
               <div class="text">
                 <div class="text-wrapper">

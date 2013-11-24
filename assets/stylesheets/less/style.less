@@ -319,6 +319,46 @@ code {
   font-size: (@fontSize - 2);
   margin-bottom: (@gridGutterWidth * 3);
 }
+#page #sort {
+  background-color: rgba(76, 140, 81, 0.1);
+  font-size: (@fontSize - 2);
+  margin: @gridGutterWidth 0;
+  .grid-column:last-child {
+    .wrapper {
+      float: right;
+    }
+    a {
+      border-left: 2px solid #fff;
+      border-right: 0;
+    }
+  }
+  a {
+    border-bottom: 0;
+    border-right: 2px solid #fff;
+    display: block;
+    float: left;
+    padding: 10px;
+    &:hover,
+    &.active {
+      background-color: rgba(76, 140, 81, 0.2);
+      color: @colorPrimary;
+    }
+    &:active {
+      color: @colorSecondary;
+    }
+    span {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      font-size: (@fontSize - 4);
+      text-transform: uppercase;
+      padding: 4px;
+      position: relative;
+      top: -1px;
+      right: -5px;
+      margin-left: 5px;
+    }
+  }
+}
 #page .box {
   background-color: #ccc;
   height: 250px;

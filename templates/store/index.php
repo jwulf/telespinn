@@ -5,6 +5,23 @@
         Du er her: <a href="/">Hjem</a> » <a href="<?= \Telespinn\URL::toSelf(); ?>"><?= $data['pageTitle']; ?></a>
       </nav>
       <h1><?= $data['pageTitle']; ?></h1>
+      <nav id="sort">
+        <div class="grid-row">
+          <div class="grid-column grid-span-8">
+            <div class="wrapper">
+              <a class="active" href="/">Sorter etter navn<span>A–å</span></a>                
+              <a href="/">Sorter etter kategori</a>                
+              <a href="/">Sorter etter pris</a>
+              <a href="/">Sorter etter farge</a>
+            </div>
+          </div>
+          <div class="grid-column grid-span-4">
+            <div class="wrapper">
+              <a href="/">Søk etter produkt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div class="grid-row">
         <div class="grid-column grid-span-4">
           <div class="box">
