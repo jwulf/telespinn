@@ -397,7 +397,32 @@ code {
 .list {
   list-style: none;
   .list-item {
+    border-bottom: 2px solid #777;
     display: block;
+    font-size: (@fontSize - 2);
+    line-height: 1.35;
+    padding: 10px 0;
+    &:first-child {
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+  h1 {
+    font-size: @fontSize;
+  }
+  a {
+    border: 0;
+    color: #bbb;
+    display: block;
+    &:hover {
+      color: @colorSecondary;
+    }
   }
 }
 
@@ -415,7 +440,12 @@ code {
 }
 #footer .grid-row {
   margin-bottom: 0;
+  margin-left: (@gridGutterWidth / -1);
+  margin-right: (@gridGutterWidth / -1);
   padding: (@gridGutterWidth) 0;
+}
+#footer .grid-column {
+  padding: 0 @gridGutterWidth;
 }
 #footer img {
   width: 100%;
