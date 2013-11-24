@@ -25,7 +25,7 @@
       <div class="grid-row">
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
@@ -71,7 +71,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
@@ -96,7 +96,7 @@
       <div class="grid-row">
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
@@ -119,7 +119,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
@@ -142,7 +142,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
@@ -167,7 +167,7 @@
       <div class="grid-row">
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-1.jpg">
               </div>
@@ -190,7 +190,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-2.jpg">
               </div>
@@ -213,7 +213,7 @@
         </div>
         <div class="grid-column grid-span-4">
           <div class="box">
-            <a href="/butikk/1">
+            <a href="/inspirasjon/1">
               <div class="image">
                 <img src="assets/images/produkt-tekstiler-3.jpg">
               </div>
