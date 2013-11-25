@@ -99,6 +99,13 @@ $app->get('/kontakt', function () use ($app) {
 });
 
 /**
+* Define route: GET /handlekurv
+*/
+$app->get('/handlekurv', function () use ($app) {
+    $app->redirect('/');
+});
+
+/**
 * Define route: GET /min-side
 */
 $app->get('/min-side', function () use ($app) {

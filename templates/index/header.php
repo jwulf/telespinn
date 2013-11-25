@@ -27,6 +27,7 @@
             </div>
             <div class="grid-column grid-span-4">
               <div class="wrapper">
+                <a href="/handlekurv">Handlekurv</a>
                 <a href="/min-side">Min side</a>
               </div>
             </div>
