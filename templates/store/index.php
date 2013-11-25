@@ -9,8 +9,8 @@
         <div class="grid-row">
           <div class="grid-column grid-span-8">
             <div class="wrapper">
-              <a class="active" href="/">Sorter etter navn<span>A–Å</span></a>                
-              <a href="/">Sorter etter kategori</a>                
+              <a class="active" href="/">Sorter etter navn<span>A–Å</span></a>
+              <a href="/">Sorter etter kategori</a>
               <a href="/">Sorter etter pris</a>
               <a href="/">Sorter etter farge</a>
             </div>
