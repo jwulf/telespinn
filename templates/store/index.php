@@ -29,6 +29,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-1.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 283</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 283</h3>
@@ -52,6 +56,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-2.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 001</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 001</h3>
@@ -74,6 +82,10 @@
             <a href="/butikk/1">
               <div class="image">
                 <img src="assets/images/produkt-garn-3.jpg">
+              </div>
+              <div class="buttons">
+                <div class="title">Pan 365</div>
+                <div class="price">kr 115</div>
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -100,6 +112,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-1.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 283</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 283</h3>
@@ -123,6 +139,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-2.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 001</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 001</h3>
@@ -145,6 +165,10 @@
             <a href="/butikk/1">
               <div class="image">
                 <img src="assets/images/produkt-garn-3.jpg">
+              </div>
+              <div class="buttons">
+                <div class="title">Pan 365</div>
+                <div class="price">kr 115</div>
               </div>
               <div class="text">
                 <div class="text-wrapper">
@@ -171,6 +195,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-1.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 283</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 283</h3>
@@ -194,6 +222,10 @@
               <div class="image">
                 <img src="assets/images/produkt-garn-2.jpg">
               </div>
+              <div class="buttons">
+                <div class="title">Pan 001</div>
+                <div class="price">kr 115</div>
+              </div>
               <div class="text">
                 <div class="text-wrapper">
                   <h3 class="title">Pan 001</h3>
@@ -216,6 +248,10 @@
             <a href="/butikk/1">
               <div class="image">
                 <img src="assets/images/produkt-garn-3.jpg">
+              </div>
+              <div class="buttons">
+                <div class="title">Pan 365</div>
+                <div class="price">kr 115</div>
               </div>
               <div class="text">
                 <div class="text-wrapper">

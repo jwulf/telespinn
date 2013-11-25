@@ -366,6 +366,9 @@ code {
   position: relative;
   a {
     &:hover {
+      .buttons {
+        display: none;
+      }
       .text {
         display: block;
       }
@@ -380,6 +383,29 @@ code {
     img {
       height: 100%;
       width: 100%;
+    }
+  }
+  .buttons {
+    .clearfix();
+    background-color: rgba(76, 140, 81, 0.5);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+    bottom: 0;
+    font-size: (@fontSize - 2);
+    div {
+      float: left;
+      width: 30%;
+      padding: 20px;
+      &:first-child {
+        width: 70%;
+      }
+      &:last-child {
+        background-color: rgba(76, 140, 81, 0.95);
+        font-weight: bold;
+        text-align: center !important;
+      }
     }
   }
   .text {
