@@ -39,7 +39,7 @@
                   <div class="table-body">
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a>Artikkel 3</a>
+                        <a href="/inspirasjon/1">Artikkel 3</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Generell
@@ -56,7 +56,7 @@
                     </div>
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a>Artikkel 2</a>
+                        <a href="/inspirasjon/1">Artikkel 2</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Produkt
@@ -73,7 +73,7 @@
                     </div>
                     <div class="table-row">
                       <div class="table-cell table-cell-span-3">
-                        <a>Artikkel 1</a>
+                        <a href="/inspirasjon/1">Artikkel 1</a>
                       </div>
                       <div class="table-cell table-cell-span-1">
                         Generell
