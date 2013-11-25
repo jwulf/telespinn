@@ -24,7 +24,6 @@
             </p>
             <p>
               <a class="button-dark button-green">Legg til i handlekurven</a>
-              <a class="button-light button-green">Legg til i handlekurven</a>
             </p>
           </div>
         </div>
