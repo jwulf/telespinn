@@ -61,7 +61,9 @@ $app->get('/inspirasjon', function () use ($app) {
 * Define route: GET /inspirasjon/:id
 */
 $app->get('/inspirasjon/:id', function () use ($app) {
-    $app->redirect('/inspirasjon');
+    $app->render('index/header', ['pageTitle' => 'Inspirasjonsartikkel']);
+    $app->render('stories/single');
+    $app->render('index/footer');
 });
 
 /**
@@ -74,10 +76,12 @@ $app->get('/butikk', function () use ($app) {
 });
 
 /**
-* Define route: GET /butikk/:id
+* Define route: GET /butikk
 */
 $app->get('/butikk/:id', function () use ($app) {
-    $app->redirect('/butikk');
+    $app->render('index/header', ['pageTitle' => 'Produktside']);
+    $app->render('store/single');
+    $app->render('index/footer');
 });
 
 /**

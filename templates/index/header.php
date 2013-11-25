@@ -4,8 +4,8 @@
     <title><?= $data['pageTitle']; ?> | Telespinn</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link href="assets/stylesheets/css/style.css" rel="stylesheet">
-    <link href="assets/images/logo-green.png" rel="icon">
+    <link href="/assets/stylesheets/css/style.css" rel="stylesheet">
+    <link href="/assets/images/logo-green.png" rel="icon">
   </head>
   <body>
     <header id="header">

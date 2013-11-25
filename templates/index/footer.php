@@ -47,19 +47,19 @@
                 <h1>Besøk oss</h1>
               </li>
               <li class="list-item">
-                <img id="footer-map" src="assets/images/map.png">
+                <img id="footer-map" src="<?= \Telespinn\URL::toBase(); ?>/assets/images/map.png">
               </li>
             </ul>
           </div>
         </div>
         <div class="grid-row">
           <div class="grid-align-center grid-column grid-span-12">
-            &copy; 2013 <img id="footer-wordmark" src="assets/images/wordmark-white.png">
+            &copy; 2013 <img id="footer-wordmark" src="<?= \Telespinn\URL::toBase(); ?>/assets/images/wordmark-white.png">
           </div>
         </div>
       </div>
     </footer>
-    <script src="assets/scripts/jquery.js"></script>
-    <script src="assets/scripts/telespinn.js"></script>
+    <script src="<?= \Telespinn\URL::toBase(); ?>/assets/scripts/jquery.js"></script>
+    <script src="<?= \Telespinn\URL::toBase(); ?>/assets/scripts/telespinn.js"></script>
   </body>
 </html>
