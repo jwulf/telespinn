@@ -15,6 +15,9 @@
               Mari M030 er et spesielt mykt 2-tråds garn.
             </p>
             <p>
+              Mari er svært behagelig mot huden. Garnet er spunnet av mohair fra de to første klippene av geitekillingen, såkalt kidmohair.
+            </p>
+            <p>
               <h1>kr 115</h1>
             </p>
             <p>
